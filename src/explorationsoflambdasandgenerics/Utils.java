@@ -14,6 +14,7 @@ import java.util.Random;
  */
 public class Utils {
 
+   
     /*
     1. write a static method like the one we did in class. call it "repeat" it
     should take 2 parameters, (1) an instance of any type and (2) an int of the
@@ -78,8 +79,20 @@ public class Utils {
     Hint 2: You will need to create an interface for each arguement in
     checkInvolutence.
      */
-   
 
-  
+    public static void testInvolutence() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+   
+ public static void modifyIntegerXTimesTester() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+  public static void repeat(Object object, int x){
+      ArrayList repeated = new ArrayList();
+      for (int i = 0; i < x; i++) {
+          repeated.add(object);
+      }
+  }
 
 }
