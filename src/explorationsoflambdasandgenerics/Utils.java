@@ -94,5 +94,7 @@ public class Utils {
           repeated.add(object);
       }
   }
-
+ public String indexedOutput(ArrayList x){
+     int size = x.size();
+ }
 }
